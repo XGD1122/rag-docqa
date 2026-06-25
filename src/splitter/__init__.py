@@ -1,0 +1,1 @@
+# SmartRAG Agent - splitter package

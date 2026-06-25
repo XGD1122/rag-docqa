@@ -1,0 +1,36 @@
+{"question": "违约金比例是多少?", "answer": "违约金比例为合同总金额的5%。", "relevant_chunks": ["contract_v1_chunk_3"], "question_type": "exact_qa", "documents": ["contract_v1.pdf"]}
+{"question": "合同签署日期是什么时候?", "answer": "合同签署日期为2024年3月15日。", "relevant_chunks": ["contract_v1_chunk_1"], "question_type": "exact_qa", "documents": ["contract_v1.pdf"]}
+{"question": "甲方公司的全称是什么?", "answer": "甲方公司全称为XX科技有限公司。", "relevant_chunks": ["contract_v1_chunk_0"], "question_type": "exact_qa", "documents": ["contract_v1.pdf"]}
+{"question": "付款期限是多少天?", "answer": "乙方应在收到发票后30天内完成付款。", "relevant_chunks": ["contract_v1_chunk_6"], "question_type": "exact_qa", "documents": ["contract_v1.pdf"]}
+{"question": "保密条款的有效期是多久?", "answer": "保密义务在合同终止后继续有效3年。", "relevant_chunks": ["contract_v2_chunk_8"], "question_type": "exact_qa", "documents": ["contract_v2.pdf"]}
+{"question": "争议解决方式是仲裁还是诉讼?", "answer": "双方约定通过仲裁方式解决争议,仲裁地为北京。", "relevant_chunks": ["contract_v1_chunk_12"], "question_type": "exact_qa", "documents": ["contract_v1.pdf"]}
+{"question": "合同总金额是多少?", "answer": "合同总金额为人民币500万元整。", "relevant_chunks": ["contract_v1_chunk_2"], "question_type": "exact_qa", "documents": ["contract_v1.pdf"]}
+{"question": "产品交付日期是什么?", "answer": "乙方应于2024年6月30日前完成产品交付。", "relevant_chunks": ["contract_v1_chunk_4"], "question_type": "exact_qa", "documents": ["contract_v1.pdf"]}
+
+{"question": "两份合同中违约金条款有什么不同?", "answer": "合同一中违约金为5%,合同二中违约金为3%且增加了逾期罚则。", "relevant_chunks": ["contract_v1_chunk_3", "contract_v2_chunk_5"], "question_type": "compare", "documents": ["contract_v1.pdf", "contract_v2.pdf"]}
+{"question": "合同一和合同二的付款条件有什么差异?", "answer": "合同一要求30天内付款,合同二要求分期付款,首付40%,验收后付60%。", "relevant_chunks": ["contract_v1_chunk_6", "contract_v2_chunk_7"], "question_type": "compare", "documents": ["contract_v1.pdf", "contract_v2.pdf"]}
+{"question": "员工手册2023版和2024版在年假政策上有什么变化?", "answer": "2023版规定年假10天,2024版调整为按工龄分档:1-3年10天,3-5年15天,5年以上20天。", "relevant_chunks": ["handbook_2023_chunk_5", "handbook_2024_chunk_5"], "question_type": "compare", "documents": ["handbook_2023.pdf", "handbook_2024.pdf"]}
+{"question": "技术方案A和技术方案B在性能指标上有什么差异?", "answer": "方案A的吞吐量为1000QPS,方案B为1500QPS;方案A延迟为50ms,方案B为30ms。", "relevant_chunks": ["tech_proposal_a_chunk_3", "tech_proposal_b_chunk_3"], "question_type": "compare", "documents": ["tech_proposal_a.pdf", "tech_proposal_b.pdf"]}
+{"question": "两家供应商的报价和交期对比如何?", "answer": "供应商A报价50万元/30天交期,供应商B报价45万元/45天交期。", "relevant_chunks": ["vendor_a_chunk_4", "vendor_b_chunk_4"], "question_type": "compare", "documents": ["vendor_a.pdf", "vendor_b.pdf"]}
+{"question": "公司2023年和2024年的营收增长情况如何?", "answer": "2023年营收1.2亿元,2024年营收1.8亿元,同比增长50%。", "relevant_chunks": ["annual_report_2023_chunk_2", "annual_report_2024_chunk_2"], "question_type": "compare", "documents": ["annual_report_2023.pdf", "annual_report_2024.pdf"]}
+
+{"question": "这份合同主要讲了什么?", "answer": "这是一份软件开发外包合同,主要约定了项目范围、交付标准、付款方式、知识产权归属和违约责任等内容。", "relevant_chunks": ["contract_v1_chunk_0", "contract_v1_chunk_1", "contract_v1_chunk_2"], "question_type": "summary", "documents": ["contract_v1.pdf"]}
+{"question": "员工手册的核心内容是什么?", "answer": "员工手册涵盖了公司制度、考勤管理、薪酬福利、绩效考核、培训发展和行为准则等方面。", "relevant_chunks": ["handbook_2024_chunk_0", "handbook_2024_chunk_1", "handbook_2024_chunk_2"], "question_type": "summary", "documents": ["handbook_2024.pdf"]}
+{"question": "总结一下技术方案的核心卖点", "answer": "技术方案的核心卖点包括:高可用架构(99.99% SLA)、弹性伸缩、多活容灾和全链路监控。", "relevant_chunks": ["tech_proposal_a_chunk_0", "tech_proposal_a_chunk_1", "tech_proposal_a_chunk_2"], "question_type": "summary", "documents": ["tech_proposal_a.pdf"]}
+{"question": "项目风险管理计划包含哪些内容?", "answer": "风险管理计划包括风险识别、评估分级、应对措施、监控机制和应急预案五大部分。", "relevant_chunks": ["project_plan_chunk_8", "project_plan_chunk_9"], "question_type": "summary", "documents": ["project_plan.pdf"]}
+{"question": "这份财务报告的主要发现是什么?", "answer": "主要发现:营收增长稳定、毛利率提升至35%、研发投入占比增至15%、现金流状况健康。", "relevant_chunks": ["annual_report_2024_chunk_0", "annual_report_2024_chunk_1"], "question_type": "summary", "documents": ["annual_report_2024.pdf"]}
+{"question": "公司战略规划的核心方向有哪些?", "answer": "核心方向:数字化转型、海外市场拓展、AI赋能产品线和组织能力升级。", "relevant_chunks": ["strategy_doc_chunk_1", "strategy_doc_chunk_2", "strategy_doc_chunk_3"], "question_type": "summary", "documents": ["strategy_doc.pdf"]}
+
+{"question": "列出产品规格参数表", "answer": "| 参数 | 值 |\n|------|----|\n| CPU | 8核 |\n| 内存 | 32GB |\n| 存储 | 1TB SSD |\n| 网络 | 10Gbps |", "relevant_chunks": ["tech_proposal_a_chunk_10"], "question_type": "table", "documents": ["tech_proposal_a.pdf"]}
+{"question": "各阶段的交付物和截止日期是什么?", "answer": "| 阶段 | 交付物 | 截止日期 |\n|------|--------|----------|\n| 需求分析 | PRD文档 | 2024-04-01 |\n| 系统设计 | 技术方案 | 2024-04-15 |\n| 开发实现 | 代码 | 2024-05-30 |\n| 测试验收 | 测试报告 | 2024-06-15 |", "relevant_chunks": ["contract_v1_chunk_4", "contract_v1_chunk_5"], "question_type": "table", "documents": ["contract_v1.pdf"]}
+{"question": "各部门人员编制和预算分配是怎样的?", "answer": "| 部门 | 编制 | 预算(万元) |\n|------|------|-----------|\n| 研发部 | 50人 | 800 |\n| 市场部 | 20人 | 300 |\n| 运营部 | 15人 | 200 |", "relevant_chunks": ["annual_report_2024_chunk_5"], "question_type": "table", "documents": ["annual_report_2024.pdf"]}
+{"question": "列出绩效考核的评分标准和权重", "answer": "| 指标 | 权重 | 评分标准 |\n|------|------|----------|\n| 工作质量 | 40% | 1-5分 |\n| 工作效率 | 30% | 1-5分 |\n| 团队协作 | 20% | 1-5分 |\n| 创新能力 | 10% | 1-5分 |", "relevant_chunks": ["handbook_2024_chunk_10"], "question_type": "table", "documents": ["handbook_2024.pdf"]}
+{"question": "供应商报价对比明细", "answer": "| 供应商 | 单价 | 交期 | 质保期 |\n|--------|------|------|--------|\n| A公司 | 10万 | 30天 | 3年 |\n| B公司 | 9万 | 45天 | 2年 |\n| C公司 | 11万 | 20天 | 5年 |", "relevant_chunks": ["vendor_a_chunk_4", "vendor_b_chunk_4", "vendor_c_chunk_4"], "question_type": "table", "documents": ["vendor_a.pdf", "vendor_b.pdf", "vendor_c.pdf"]}
+{"question": "项目里程碑和验收标准表", "answer": "| 里程碑 | 时间 | 验收标准 |\n|--------|------|----------|\n| M1 | 第1个月 | PRD评审通过 |\n| M2 | 第2个月 | 原型验收通过 |\n| M3 | 第4个月 | 功能测试通过 |\n| M4 | 第6个月 | 上线验收 |", "relevant_chunks": ["project_plan_chunk_3"], "question_type": "table", "documents": ["project_plan.pdf"]}
+
+{"question": "文档中提到了哪些关于数据出境的合规要求?", "answer": "未在文档中找到关于数据出境合规要求的相关信息。", "relevant_chunks": [], "question_type": "missing", "documents": ["contract_v1.pdf", "contract_v2.pdf"]}
+{"question": "公司有没有提到任何关于收购并购的计划?", "answer": "未在文档中找到关于收购并购计划的信息。", "relevant_chunks": [], "question_type": "missing", "documents": ["annual_report_2024.pdf"]}
+{"question": "员工的股票期权激励方案是什么?", "answer": "文档中未涉及员工股票期权激励方案的相关内容。", "relevant_chunks": [], "question_type": "missing", "documents": ["handbook_2024.pdf"]}
+{"question": "产品的国际市场定价策略是什么?", "answer": "未在现有文档中找到关于国际市场定价策略的内容。", "relevant_chunks": [], "question_type": "missing", "documents": ["tech_proposal_a.pdf", "tech_proposal_b.pdf"]}
+{"question": "合同中是否包含了竞业禁止条款?", "answer": "未在文档中找到竞业禁止条款。", "relevant_chunks": [], "question_type": "missing", "documents": ["contract_v1.pdf"]}
+{"question": "公司有多少海外分支机构?", "answer": "文档中未提供海外分支机构的相关信息。", "relevant_chunks": [], "question_type": "missing", "documents": ["annual_report_2024.pdf", "strategy_doc.pdf"]}
