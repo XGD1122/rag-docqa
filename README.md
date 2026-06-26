@@ -166,11 +166,4 @@ python -m src.evaluation.report
 | UI | Streamlit |
 | 配置 | pydantic-settings |
 
-## 设计取舍
 
-| 取舍 | 选择 | 权衡 |
-|------|------|------|
-| 后置匹配 vs LLM 生成引用 | 后置匹配 | 引用可验证，但可能漏掉 LLM 自身知识的合理补充 |
-| LLM 自检 vs embedding 相似度 | LLM 自检 | 同事实不同措辞可识别，但多一次 API 调用 |
-| BM25 内存 vs 磁盘 | 内存 | 重启需重建，秒级可接受 |
-| RRF 融合 vs 加权求和 | RRF | 避免分数尺度不一致，只需调一个 k 参数 |
